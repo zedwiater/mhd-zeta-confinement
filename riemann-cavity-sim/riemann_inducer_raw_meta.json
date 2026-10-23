@@ -1,0 +1,475 @@
+{
+ "runs": [
+  {
+   "run_id": 1,
+   "cell": "OFF",
+   "arm": "LADDER",
+   "seed": 0
+  },
+  {
+   "run_id": 2,
+   "cell": "OFF",
+   "arm": "LADDER",
+   "seed": 1
+  },
+  {
+   "run_id": 3,
+   "cell": "OFF",
+   "arm": "LADDER",
+   "seed": 2
+  },
+  {
+   "run_id": 4,
+   "cell": "SWEEP_G_d0.02",
+   "arm": "LADDER",
+   "seed": 0
+  },
+  {
+   "run_id": 5,
+   "cell": "SWEEP_G_d0.02",
+   "arm": "LADDER",
+   "seed": 1
+  },
+  {
+   "run_id": 6,
+   "cell": "SWEEP_G_d0.02",
+   "arm": "LADDER",
+   "seed": 2
+  },
+  {
+   "run_id": 7,
+   "cell": "SWEEP_G_d0.05",
+   "arm": "LADDER",
+   "seed": 0
+  },
+  {
+   "run_id": 8,
+   "cell": "SWEEP_G_d0.05",
+   "arm": "LADDER",
+   "seed": 1
+  },
+  {
+   "run_id": 9,
+   "cell": "SWEEP_G_d0.05",
+   "arm": "LADDER",
+   "seed": 2
+  },
+  {
+   "run_id": 10,
+   "cell": "SWEEP_G_d0.10",
+   "arm": "LADDER",
+   "seed": 0
+  },
+  {
+   "run_id": 11,
+   "cell": "SWEEP_G_d0.10",
+   "arm": "LADDER",
+   "seed": 1
+  },
+  {
+   "run_id": 12,
+   "cell": "SWEEP_G_d0.10",
+   "arm": "LADDER",
+   "seed": 2
+  },
+  {
+   "run_id": 13,
+   "cell": "SWEEP_G_d0.10",
+   "arm": "DETUNE",
+   "seed": 0
+  },
+  {
+   "run_id": 14,
+   "cell": "SWEEP_G_d0.10",
+   "arm": "DETUNE",
+   "seed": 1
+  },
+  {
+   "run_id": 15,
+   "cell": "SWEEP_G_d0.10",
+   "arm": "DETUNE",
+   "seed": 2
+  },
+  {
+   "run_id": 16,
+   "cell": "SWEEP_G_d0.10",
+   "arm": "SHIFT",
+   "seed": 0
+  },
+  {
+   "run_id": 17,
+   "cell": "SWEEP_G_d0.10",
+   "arm": "SHIFT",
+   "seed": 1
+  },
+  {
+   "run_id": 18,
+   "cell": "SWEEP_G_d0.10",
+   "arm": "SHIFT",
+   "seed": 2
+  },
+  {
+   "run_id": 19,
+   "cell": "SWEEP_G_d0.20",
+   "arm": "LADDER",
+   "seed": 0
+  },
+  {
+   "run_id": 20,
+   "cell": "SWEEP_G_d0.20",
+   "arm": "LADDER",
+   "seed": 1
+  },
+  {
+   "run_id": 21,
+   "cell": "SWEEP_G_d0.20",
+   "arm": "LADDER",
+   "seed": 2
+  },
+  {
+   "run_id": 22,
+   "cell": "SWEEP_G_d0.40",
+   "arm": "LADDER",
+   "seed": 0
+  },
+  {
+   "run_id": 23,
+   "cell": "SWEEP_G_d0.40",
+   "arm": "LADDER",
+   "seed": 1
+  },
+  {
+   "run_id": 24,
+   "cell": "SWEEP_G_d0.40",
+   "arm": "LADDER",
+   "seed": 2
+  },
+  {
+   "run_id": 25,
+   "cell": "ANG_G_d0.02_TP",
+   "arm": "LADDER",
+   "seed": 0
+  },
+  {
+   "run_id": 26,
+   "cell": "ANG_G_d0.02_TP",
+   "arm": "LADDER",
+   "seed": 1
+  },
+  {
+   "run_id": 27,
+   "cell": "ANG_G_d0.02_TP",
+   "arm": "LADDER",
+   "seed": 2
+  },
+  {
+   "run_id": 28,
+   "cell": "ANG_G_d0.02_PU",
+   "arm": "LADDER",
+   "seed": 0
+  },
+  {
+   "run_id": 29,
+   "cell": "ANG_G_d0.02_PU",
+   "arm": "LADDER",
+   "seed": 1
+  },
+  {
+   "run_id": 30,
+   "cell": "ANG_G_d0.02_PU",
+   "arm": "LADDER",
+   "seed": 2
+  },
+  {
+   "run_id": 31,
+   "cell": "ANG_G_d0.02_PD",
+   "arm": "LADDER",
+   "seed": 0
+  },
+  {
+   "run_id": 32,
+   "cell": "ANG_G_d0.02_PD",
+   "arm": "LADDER",
+   "seed": 1
+  },
+  {
+   "run_id": 33,
+   "cell": "ANG_G_d0.02_PD",
+   "arm": "LADDER",
+   "seed": 2
+  },
+  {
+   "run_id": 34,
+   "cell": "ANG_G_d0.10_TP",
+   "arm": "LADDER",
+   "seed": 0
+  },
+  {
+   "run_id": 35,
+   "cell": "ANG_G_d0.10_TP",
+   "arm": "LADDER",
+   "seed": 1
+  },
+  {
+   "run_id": 36,
+   "cell": "ANG_G_d0.10_TP",
+   "arm": "LADDER",
+   "seed": 2
+  },
+  {
+   "run_id": 37,
+   "cell": "ANG_G_d0.10_PU",
+   "arm": "LADDER",
+   "seed": 0
+  },
+  {
+   "run_id": 38,
+   "cell": "ANG_G_d0.10_PU",
+   "arm": "LADDER",
+   "seed": 1
+  },
+  {
+   "run_id": 39,
+   "cell": "ANG_G_d0.10_PU",
+   "arm": "LADDER",
+   "seed": 2
+  },
+  {
+   "run_id": 40,
+   "cell": "ANG_G_d0.10_PD",
+   "arm": "LADDER",
+   "seed": 0
+  },
+  {
+   "run_id": 41,
+   "cell": "ANG_G_d0.10_PD",
+   "arm": "LADDER",
+   "seed": 1
+  },
+  {
+   "run_id": 42,
+   "cell": "ANG_G_d0.10_PD",
+   "arm": "LADDER",
+   "seed": 2
+  },
+  {
+   "run_id": 43,
+   "cell": "H_d0.02",
+   "arm": "LADDER",
+   "seed": 0
+  },
+  {
+   "run_id": 44,
+   "cell": "H_d0.02",
+   "arm": "LADDER",
+   "seed": 1
+  },
+  {
+   "run_id": 45,
+   "cell": "H_d0.02",
+   "arm": "LADDER",
+   "seed": 2
+  },
+  {
+   "run_id": 46,
+   "cell": "H_d0.10",
+   "arm": "LADDER",
+   "seed": 0
+  },
+  {
+   "run_id": 47,
+   "cell": "H_d0.10",
+   "arm": "LADDER",
+   "seed": 1
+  },
+  {
+   "run_id": 48,
+   "cell": "H_d0.10",
+   "arm": "LADDER",
+   "seed": 2
+  },
+  {
+   "run_id": 49,
+   "cell": "PLACEBO_B",
+   "arm": "LADDER",
+   "seed": 0
+  },
+  {
+   "run_id": 50,
+   "cell": "PLACEBO_B",
+   "arm": "LADDER",
+   "seed": 1
+  },
+  {
+   "run_id": 51,
+   "cell": "PLACEBO_B",
+   "arm": "LADDER",
+   "seed": 2
+  }
+ ],
+ "AIND": {
+  "A": 4500.0,
+  "B": 900.0
+ },
+ "tones": {
+  "G": 20.2147,
+  "H": 30.064556048172147
+ },
+ "cells": {
+  "OFF": null,
+  "SWEEP_G_d0.02": {
+   "tone": 20.2147,
+   "cav": "A",
+   "x": 0.77,
+   "theta": 0.0
+  },
+  "SWEEP_G_d0.05": {
+   "tone": 20.2147,
+   "cav": "A",
+   "x": 0.74,
+   "theta": 0.0
+  },
+  "SWEEP_G_d0.10": {
+   "tone": 20.2147,
+   "cav": "A",
+   "x": 0.69,
+   "theta": 0.0
+  },
+  "SWEEP_G_d0.20": {
+   "tone": 20.2147,
+   "cav": "A",
+   "x": 0.59,
+   "theta": 0.0
+  },
+  "SWEEP_G_d0.40": {
+   "tone": 20.2147,
+   "cav": "A",
+   "x": 0.39,
+   "theta": 0.0
+  },
+  "ANG_G_d0.02_TP": {
+   "tone": 20.2147,
+   "cav": "A",
+   "x": 0.81,
+   "theta": 0.0
+  },
+  "ANG_G_d0.02_PU": {
+   "tone": 20.2147,
+   "cav": "A",
+   "x": 0.79,
+   "theta": 1.5707963267948966
+  },
+  "ANG_G_d0.02_PD": {
+   "tone": 20.2147,
+   "cav": "A",
+   "x": 0.79,
+   "theta": 3.141592653589793
+  },
+  "ANG_G_d0.10_TP": {
+   "tone": 20.2147,
+   "cav": "A",
+   "x": 0.89,
+   "theta": 0.0
+  },
+  "ANG_G_d0.10_PU": {
+   "tone": 20.2147,
+   "cav": "A",
+   "x": 0.79,
+   "theta": 1.5707963267948966
+  },
+  "ANG_G_d0.10_PD": {
+   "tone": 20.2147,
+   "cav": "A",
+   "x": 0.79,
+   "theta": 3.141592653589793
+  },
+  "H_d0.02": {
+   "tone": 30.064556048172147,
+   "cav": "A",
+   "x": 0.77,
+   "theta": 0.0
+  },
+  "H_d0.10": {
+   "tone": 30.064556048172147,
+   "cav": "A",
+   "x": 0.69,
+   "theta": 0.0
+  },
+  "PLACEBO_B": {
+   "tone": 20.2147,
+   "cav": "B",
+   "x": null,
+   "theta": 0.0
+  }
+ },
+ "g1": {
+  "OFF|LADDER": {
+   "hits": 90,
+   "total": 90
+  },
+  "SWEEP_G_d0.02|LADDER": {
+   "hits": 87,
+   "total": 90
+  },
+  "SWEEP_G_d0.05|LADDER": {
+   "hits": 88,
+   "total": 90
+  },
+  "SWEEP_G_d0.10|LADDER": {
+   "hits": 87,
+   "total": 90
+  },
+  "SWEEP_G_d0.10|DETUNE": {
+   "hits": 85,
+   "total": 90
+  },
+  "SWEEP_G_d0.10|SHIFT": {
+   "hits": 88,
+   "total": 90
+  },
+  "SWEEP_G_d0.20|LADDER": {
+   "hits": 89,
+   "total": 90
+  },
+  "SWEEP_G_d0.40|LADDER": {
+   "hits": 87,
+   "total": 90
+  },
+  "ANG_G_d0.02_TP|LADDER": {
+   "hits": 87,
+   "total": 90
+  },
+  "ANG_G_d0.02_PU|LADDER": {
+   "hits": 87,
+   "total": 90
+  },
+  "ANG_G_d0.02_PD|LADDER": {
+   "hits": 87,
+   "total": 90
+  },
+  "ANG_G_d0.10_TP|LADDER": {
+   "hits": 89,
+   "total": 90
+  },
+  "ANG_G_d0.10_PU|LADDER": {
+   "hits": 87,
+   "total": 90
+  },
+  "ANG_G_d0.10_PD|LADDER": {
+   "hits": 87,
+   "total": 90
+  },
+  "H_d0.02|LADDER": {
+   "hits": 90,
+   "total": 90
+  },
+  "H_d0.10|LADDER": {
+   "hits": 90,
+   "total": 90
+  },
+  "PLACEBO_B|LADDER": {
+   "hits": 90,
+   "total": 90
+  }
+ }
+}
