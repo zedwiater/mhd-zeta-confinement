@@ -1,0 +1,568 @@
+{
+ "iteration": 7,
+ "name": "honing any anomaly",
+ "rounds_used": 15,
+ "rounds_cap": 15,
+ "anomaly_confirmed": false,
+ "totals": {
+  "runs": 231,
+  "peaks": 398482,
+  "candidates_audited": 60450,
+  "unexplained_peaks": 0,
+  "reproducible_unexplained_clusters": 0,
+  "max_closure_frac": 0.0005594264799734,
+  "max_slope_settled": -0.0517664200699156,
+  "total_clamps": 0
+ },
+ "candidate_r14": {
+  "criterion": "b",
+  "round": 14,
+  "geometry": {
+   "ind": [
+    0.69,
+    0
+   ],
+   "cap": [
+    0.79,
+    15
+   ],
+   "kappa_mult": 4.0,
+   "f_bare": 40.4294,
+   "f_ring": 17.2202
+  },
+  "delta_off": 0.1743813018830629,
+  "delta_line": 0.1539944999999996,
+  "control_spread": 0.1651995758098082,
+  "confirmation_round": 15,
+  "confirmation_seeds": [
+   3,
+   4,
+   5
+  ],
+  "confirmation_delta_off": 0.16900750409751453,
+  "confirmation_control_spread": 0.21912487414820714,
+  "confirmed": false,
+  "disposition": "point estimate replicated at fresh seeds (+0.169 vs +0.174) but the confirmation round's control spread (0.219) exceeds it; displacement is a property of the kappa=4 extinction regime, not the tuned geometry"
+ },
+ "bounds": {
+  "kappa1_focus_abs_delta_off_by_round": {
+   "1": 0.0037537520487553877,
+   "2": 0.002157504097510754,
+   "3": 0.005468473272511376,
+   "4": 0.0029037520487555923,
+   "5": 0.001593284143471152,
+   "6": 0.0020000000000023888,
+   "9": 0.00830722099026815,
+   "10": 0.004015370258372286,
+   "11": 0.0032575040975117986,
+   "13": 0.022447597601345848
+  },
+  "B_share_out_range": [
+   0.0857,
+   0.0881
+  ],
+  "ind_frac_vs_kappa_at_winner": {
+   "0.5": 0.01281,
+   "1": 0.00685,
+   "2": 0.00165,
+   "4": 0.00035
+  }
+ },
+ "rounds": {
+  "1": {
+   "focus": "H01_FOCUS",
+   "geom": {
+    "ind": [
+     0.69,
+     0
+    ],
+    "cap": [
+     0.79,
+     15
+    ],
+    "kappa_mult": 1.0,
+    "f_bare": 10.10735,
+    "f_ring": 33.6716
+   },
+   "exchanges": {
+    "ind_frac": 0.0068463772138358915,
+    "B_share_out": 0.08592047536345454,
+    "tr_ext_frac": 0.0174781945763134,
+    "cap_end_share": 1.7439460343753915e-06,
+    "sat_frac": 0.0911999999999981,
+    "closure_frac": 0.0004370350800284,
+    "slope_settled": -0.095895709822211
+   },
+   "P": 0.8536324330612484,
+   "candidate": false,
+   "anomaly": {
+    "a_unexplained_clusters": [],
+    "b_alignment_claim": false,
+    "c_exchange_flags": [],
+    "d_stability_flags": []
+   }
+  },
+  "2": {
+   "focus": "H02_FOCUS",
+   "geom": {
+    "ind": [
+     0.69,
+     0
+    ],
+    "cap": [
+     0.79,
+     7.5
+    ],
+    "kappa_mult": 1.0,
+    "f_bare": 10.10735,
+    "f_ring": 33.6716
+   },
+   "exchanges": {
+    "ind_frac": 0.007448310342034054,
+    "B_share_out": 0.08605945210618235,
+    "tr_ext_frac": 0.018183724338961704,
+    "cap_end_share": 1.7697618176265732e-06,
+    "sat_frac": 0.0959999999999975,
+    "closure_frac": 0.0004375278460442,
+    "slope_settled": -0.0835178590318493
+   },
+   "P": 0.8512249781593041,
+   "candidate": false,
+   "anomaly": {
+    "a_unexplained_clusters": [],
+    "b_alignment_claim": false,
+    "c_exchange_flags": [],
+    "d_stability_flags": []
+   }
+  },
+  "3": {
+   "focus": "H03_FOCUS",
+   "geom": {
+    "ind": [
+     0.69,
+     0
+    ],
+    "cap": [
+     0.76,
+     15
+    ],
+    "kappa_mult": 1.0,
+    "f_bare": 10.10735,
+    "f_ring": 33.6716
+   },
+   "exchanges": {
+    "ind_frac": 0.006517102012971458,
+    "B_share_out": 0.08589552402001123,
+    "tr_ext_frac": 0.017577519241375936,
+    "cap_end_share": 1.7323841132320027e-06,
+    "sat_frac": 0.0929499999999979,
+    "closure_frac": 0.0004368462602457,
+    "slope_settled": -0.1008476238742976
+   },
+   "P": 0.8523404995807824,
+   "candidate": false,
+   "anomaly": {
+    "a_unexplained_clusters": [],
+    "b_alignment_claim": false,
+    "c_exchange_flags": [],
+    "d_stability_flags": []
+   }
+  },
+  "4": {
+   "focus": "H04_FOCUS",
+   "geom": {
+    "ind": [
+     0.66,
+     0
+    ],
+    "cap": [
+     0.79,
+     15
+    ],
+    "kappa_mult": 1.0,
+    "f_bare": 10.10735,
+    "f_ring": 33.6716
+   },
+   "exchanges": {
+    "ind_frac": 0.004983654598935221,
+    "B_share_out": 0.08594504045167142,
+    "tr_ext_frac": 0.015847406993700297,
+    "cap_end_share": 1.2305169247805488e-06,
+    "sat_frac": 0.0840499999999989,
+    "closure_frac": 0.0004376394073061,
+    "slope_settled": -0.0926664814457526
+   },
+   "P": 0.8382735439466997,
+   "candidate": false,
+   "anomaly": {
+    "a_unexplained_clusters": [],
+    "b_alignment_claim": false,
+    "c_exchange_flags": [],
+    "d_stability_flags": []
+   }
+  },
+  "5": {
+   "focus": "H05_FOCUS",
+   "geom": {
+    "ind": [
+     0.55,
+     0
+    ],
+    "cap": [
+     0.79,
+     15
+    ],
+    "kappa_mult": 1.0,
+    "f_bare": 10.10735,
+    "f_ring": 33.6716
+   },
+   "exchanges": {
+    "ind_frac": 0.0012679370431088076,
+    "B_share_out": 0.08608068005469548,
+    "tr_ext_frac": 0.012850933611374911,
+    "cap_end_share": 2.931612546424677e-09,
+    "sat_frac": 0.0749499999999999,
+    "closure_frac": 0.0004387795690891,
+    "slope_settled": -0.1012331436442424
+   },
+   "P": 0.6836303038072041,
+   "candidate": false,
+   "anomaly": {
+    "a_unexplained_clusters": [],
+    "b_alignment_claim": false,
+    "c_exchange_flags": [],
+    "d_stability_flags": []
+   }
+  },
+  "6": {
+   "focus": "H06_FOCUS",
+   "geom": {
+    "ind": [
+     0.69,
+     45
+    ],
+    "cap": [
+     0.79,
+     15
+    ],
+    "kappa_mult": 1.0,
+    "f_bare": 10.10735,
+    "f_ring": 33.6716
+   },
+   "exchanges": {
+    "ind_frac": 0.0003078188989878798,
+    "B_share_out": 0.08608240579080849,
+    "tr_ext_frac": 0.012899101492698479,
+    "cap_end_share": 4.80752778320369e-08,
+    "sat_frac": 0.0757999999999998,
+    "closure_frac": 0.0004390540909403,
+    "slope_settled": -0.3600663153210836
+   },
+   "P": 0.8764847106393734,
+   "candidate": false,
+   "anomaly": {
+    "a_unexplained_clusters": [],
+    "b_alignment_claim": false,
+    "c_exchange_flags": [],
+    "d_stability_flags": []
+   }
+  },
+  "7": {
+   "focus": "H07_FOCUS",
+   "geom": {
+    "ind": [
+     0.69,
+     0
+    ],
+    "cap": [
+     0.79,
+     15
+    ],
+    "kappa_mult": 2.0,
+    "f_bare": 20.2147,
+    "f_ring": 16.297662976629766
+   },
+   "exchanges": {
+    "ind_frac": 0.0016457180955577423,
+    "B_share_out": 0.0864828691332817,
+    "tr_ext_frac": 0.011998524732168376,
+    "cap_end_share": 6.988685817857749e-07,
+    "sat_frac": 0.0565000000000011,
+    "closure_frac": 0.0004420566278071,
+    "slope_settled": -0.1902917922421271
+   },
+   "P": 0.9781627229355448,
+   "candidate": false,
+   "anomaly": {
+    "a_unexplained_clusters": [],
+    "b_alignment_claim": false,
+    "c_exchange_flags": [],
+    "d_stability_flags": []
+   }
+  },
+  "8": {
+   "focus": "H08_FOCUS",
+   "geom": {
+    "ind": [
+     0.69,
+     0
+    ],
+    "cap": [
+     0.79,
+     15
+    ],
+    "kappa_mult": 0.5,
+    "f_bare": 5.053675,
+    "f_ring": 33.364083640836405
+   },
+   "exchanges": {
+    "ind_frac": 0.012809783347223968,
+    "B_share_out": 0.08565058221443685,
+    "tr_ext_frac": 0.022484077243915514,
+    "cap_end_share": 1.1009954503293302e-06,
+    "sat_frac": 0.1238499999999945,
+    "closure_frac": 0.0004340770547208,
+    "slope_settled": -0.0692611505432466
+   },
+   "P": 0.7753184761030696,
+   "candidate": false,
+   "anomaly": {
+    "a_unexplained_clusters": [],
+    "b_alignment_claim": false,
+    "c_exchange_flags": [],
+    "d_stability_flags": []
+   }
+  },
+  "9": {
+   "focus": "H09_FOCUS",
+   "geom": {
+    "ind": [
+     0.69,
+     0
+    ],
+    "cap": [
+     0.55,
+     0
+    ],
+    "kappa_mult": 1.0,
+    "f_bare": 10.10735,
+    "f_ring": 33.6716
+   },
+   "exchanges": {
+    "ind_frac": 0.016775322621056125,
+    "B_share_out": 0.08617690458612874,
+    "tr_ext_frac": 0.023722032377965895,
+    "cap_end_share": 6.590282987537632e-09,
+    "sat_frac": 0.1216499999999947,
+    "closure_frac": 0.0004369590958174,
+    "slope_settled": -0.0519171512507945
+   },
+   "P": 0.7615389030734268,
+   "candidate": false,
+   "anomaly": {
+    "a_unexplained_clusters": [],
+    "b_alignment_claim": false,
+    "c_exchange_flags": [],
+    "d_stability_flags": []
+   }
+  },
+  "10": {
+   "focus": "H10_FOCUS",
+   "geom": {
+    "ind": [
+     0.79,
+     15
+    ],
+    "cap": [
+     0.79,
+     15
+    ],
+    "kappa_mult": 1.0,
+    "f_bare": 10.10735,
+    "f_ring": 33.6716
+   },
+   "exchanges": {
+    "ind_frac": 0.006797992790778635,
+    "B_share_out": 0.08594453042550568,
+    "tr_ext_frac": 0.017994645728128263,
+    "cap_end_share": 1.7771800541114504e-06,
+    "sat_frac": 0.0928999999999979,
+    "closure_frac": 0.0004369970028441,
+    "slope_settled": -0.1536189528734468
+   },
+   "P": 0.8600298945089452,
+   "candidate": false,
+   "anomaly": {
+    "a_unexplained_clusters": [],
+    "b_alignment_claim": false,
+    "c_exchange_flags": [],
+    "d_stability_flags": []
+   }
+  },
+  "11": {
+   "focus": "H11_FOCUS",
+   "geom": {
+    "ind": [
+     0.69,
+     0
+    ],
+    "cap": [
+     0.79,
+     180
+    ],
+    "kappa_mult": 1.0,
+    "f_bare": 10.10735,
+    "f_ring": 33.6716
+   },
+   "exchanges": {
+    "ind_frac": 0.006581399782847423,
+    "B_share_out": 0.08630897291234192,
+    "tr_ext_frac": 0.015634407330162407,
+    "cap_end_share": 2.395082020319328e-06,
+    "sat_frac": 0.0722500000000002,
+    "closure_frac": 0.0004394526886037,
+    "slope_settled": -0.0941504098776065
+   },
+   "P": 0.8066164157342914,
+   "candidate": false,
+   "anomaly": {
+    "a_unexplained_clusters": [],
+    "b_alignment_claim": false,
+    "c_exchange_flags": [],
+    "d_stability_flags": []
+   }
+  },
+  "12": {
+   "focus": "H12_FOCUS",
+   "geom": {
+    "ind": [
+     0.55,
+     0
+    ],
+    "cap": [
+     0.79,
+     15
+    ],
+    "kappa_mult": 2.0,
+    "f_bare": 20.2147,
+    "f_ring": 16.297662976629766
+   },
+   "exchanges": {
+    "ind_frac": 0.0012702187274575153,
+    "B_share_out": 0.08654656318955484,
+    "tr_ext_frac": 0.011089328673030132,
+    "cap_end_share": 2.530408760653278e-09,
+    "sat_frac": 0.055700000000001,
+    "closure_frac": 0.0004421411266595,
+    "slope_settled": -0.1009599546918398
+   },
+   "P": 0.9370808048546792,
+   "candidate": false,
+   "anomaly": {
+    "a_unexplained_clusters": [],
+    "b_alignment_claim": false,
+    "c_exchange_flags": [],
+    "d_stability_flags": []
+   }
+  },
+  "13": {
+   "focus": "H13_FOCUS",
+   "geom": {
+    "ind": [
+     0.69,
+     0
+    ],
+    "cap": [
+     0.85,
+     30
+    ],
+    "kappa_mult": 1.0,
+    "f_bare": 10.10735,
+    "f_ring": 33.6716
+   },
+   "exchanges": {
+    "ind_frac": 0.010496650181500996,
+    "B_share_out": 0.0864190024861504,
+    "tr_ext_frac": 0.019961502723011962,
+    "cap_end_share": 1.2385096732382125e-06,
+    "sat_frac": 0.1025999999999968,
+    "closure_frac": 0.000439157698635,
+    "slope_settled": -0.0694869181898018
+   },
+   "P": 0.7777403860862117,
+   "candidate": false,
+   "anomaly": {
+    "a_unexplained_clusters": [],
+    "b_alignment_claim": false,
+    "c_exchange_flags": [],
+    "d_stability_flags": []
+   }
+  },
+  "14": {
+   "focus": "H14_FOCUS",
+   "geom": {
+    "ind": [
+     0.69,
+     0
+    ],
+    "cap": [
+     0.79,
+     15
+    ],
+    "kappa_mult": 4.0,
+    "f_bare": 40.4294,
+    "f_ring": 17.22017220172202
+   },
+   "exchanges": {
+    "ind_frac": 0.00035361116991517285,
+    "B_share_out": 0.08812002460604727,
+    "tr_ext_frac": 0.017252914150003115,
+    "cap_end_share": 1.0595752811136175e-07,
+    "sat_frac": 0.1274499999999941,
+    "closure_frac": 0.0004489429431587,
+    "slope_settled": -0.6696129411317719
+   },
+   "P": 0.8454864807323824,
+   "candidate": true,
+   "anomaly": {
+    "a_unexplained_clusters": [],
+    "b_alignment_claim": true,
+    "c_exchange_flags": [],
+    "d_stability_flags": []
+   }
+  },
+  "15": {
+   "focus": "H15_FOCUS",
+   "geom": {
+    "ind": [
+     0.69,
+     0
+    ],
+    "cap": [
+     0.79,
+     15
+    ],
+    "kappa_mult": 4.0,
+    "f_bare": 40.4294,
+    "f_ring": 17.22017220172202
+   },
+   "exchanges": {
+    "ind_frac": 0.0003484895264244975,
+    "B_share_out": 0.08812606951383915,
+    "tr_ext_frac": 0.017147362899991202,
+    "cap_end_share": 1.1255049065794687e-07,
+    "sat_frac": 0.1250999999999943,
+    "closure_frac": 0.0004559754728693,
+    "slope_settled": -0.6710322325289406
+   },
+   "P": 1.1487735643059902,
+   "candidate": false,
+   "anomaly": {
+    "a_unexplained_clusters": [],
+    "b_alignment_claim": false,
+    "c_exchange_flags": [],
+    "d_stability_flags": []
+   }
+  }
+ }
+}
