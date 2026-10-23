@@ -1,4 +1,4 @@
-# Riemann Cavity Simulation Program — Iterations 1–6
+# Riemann Cavity Simulation Program — Iterations 1–7
 
 A simulation study, run 2026-10-22, of two coupled modal cavities driven by a
 "ladder" of tones whose frequencies are the imaginary parts of the first 30
@@ -26,7 +26,7 @@ this folder should be read as one.
 - Energy ledgers must close for a run to count.
 - Null results are kept, not rounded up.
 
-## The six iterations
+## The seven iterations
 
 1. **Dual cavity** (`riemann_dual_cavity_*`, `RIEMANN_DUAL_CAVITY.md`) —
    Ladder-driven cavity pair, three modulation modes. **Verdict: NULL.**
@@ -80,7 +80,24 @@ this folder should be read as one.
    NULL. The 0.3176 Hz exception from iteration 5 vanishes under these
    conditions.
 
-## Pattern across all six
+7. **Honing** (`riemann_honing_*`, `RIEMANN_HONING.md`) — Fifteen
+   rounds of tuning the elements' positions in relation (inducer and
+   capacitor micro-steps, the trap distance, capacitance \u00d70.5/\u00d72/\u00d74),
+   hunting any anomaly under criteria pre-registered before round 1,
+   with the Riemann-line comparison and full controls at every round.
+   **Verdict: NO ANOMALY in 15/15 rounds** — 231 runs, 398,482 peaks,
+   and zero unexplained *peaks* (not merely zero clusters) across
+   60,450 audited candidates. The one candidate (round 14, capacitance
+   \u00d74: alignment shift +0.1744 against a control spread of 0.1652)
+   failed its fresh-seed confirmation round — the shift replicated
+   (+0.1690) but the spread grew past it (0.2191), so it is a property
+   of the \u00d74 extinction regime, not of the tuned geometry. Mapped en
+   route, all engine-expected: capacitance is a pure loading dial; the
+   trap is a hard floor; an inducer at \u03b8 = 45\u00b0 nearly decouples without
+   any capacitor; cavity B's share of output is geometry-blind
+   (0.0857\u20130.0881 in all 15 rounds).
+
+## Pattern across all seven
 
 Every element added — transducer, inducer, capacitor — acts on
 *acceptance and persistence*: how much energy gets in, and how long it
