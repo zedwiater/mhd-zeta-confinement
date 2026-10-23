@@ -1,0 +1,63 @@
+run 1 OFF LADDER seed0 closure=0.00044 Eind=0.0 elapsed=7s
+run 2 OFF LADDER seed1 closure=0.00040 Eind=0.0 elapsed=14s
+run 3 OFF LADDER seed2 closure=0.00044 Eind=0.0 elapsed=21s
+run 4 SWEEP_G_d0.02 LADDER seed0 closure=0.00044 Eind=216597.7 elapsed=28s
+run 5 SWEEP_G_d0.02 LADDER seed1 closure=0.00039 Eind=215601.0 elapsed=35s
+run 6 SWEEP_G_d0.02 LADDER seed2 closure=0.00043 Eind=215383.9 elapsed=43s
+run 7 SWEEP_G_d0.05 LADDER seed0 closure=0.00044 Eind=201435.4 elapsed=50s
+run 8 SWEEP_G_d0.05 LADDER seed1 closure=0.00039 Eind=200423.4 elapsed=58s
+run 9 SWEEP_G_d0.05 LADDER seed2 closure=0.00043 Eind=200212.5 elapsed=65s
+run 10 SWEEP_G_d0.10 LADDER seed0 closure=0.00044 Eind=143763.4 elapsed=74s
+run 11 SWEEP_G_d0.10 LADDER seed1 closure=0.00039 Eind=142749.5 elapsed=82s
+run 12 SWEEP_G_d0.10 LADDER seed2 closure=0.00043 Eind=142565.4 elapsed=89s
+run 13 SWEEP_G_d0.10 DETUNE seed0 closure=0.00047 Eind=138772.0 elapsed=97s
+run 14 SWEEP_G_d0.10 DETUNE seed1 closure=0.00044 Eind=144220.3 elapsed=104s
+run 15 SWEEP_G_d0.10 DETUNE seed2 closure=0.00047 Eind=138929.1 elapsed=112s
+run 16 SWEEP_G_d0.10 SHIFT seed0 closure=0.00055 Eind=150194.5 elapsed=119s
+run 17 SWEEP_G_d0.10 SHIFT seed1 closure=0.00055 Eind=148307.6 elapsed=127s
+run 18 SWEEP_G_d0.10 SHIFT seed2 closure=0.00055 Eind=150529.0 elapsed=135s
+run 19 SWEEP_G_d0.20 LADDER seed0 closure=0.00044 Eind=26315.2 elapsed=142s
+run 20 SWEEP_G_d0.20 LADDER seed1 closure=0.00040 Eind=25889.6 elapsed=150s
+run 21 SWEEP_G_d0.20 LADDER seed2 closure=0.00044 Eind=25823.8 elapsed=158s
+run 22 SWEEP_G_d0.40 LADDER seed0 closure=0.00044 Eind=132712.7 elapsed=166s
+run 23 SWEEP_G_d0.40 LADDER seed1 closure=0.00039 Eind=133779.8 elapsed=173s
+run 24 SWEEP_G_d0.40 LADDER seed2 closure=0.00043 Eind=133021.1 elapsed=181s
+run 25 ANG_G_d0.02_TP LADDER seed0 closure=0.00044 Eind=205908.6 elapsed=189s
+run 26 ANG_G_d0.02_TP LADDER seed1 closure=0.00039 Eind=204917.0 elapsed=197s
+run 27 ANG_G_d0.02_TP LADDER seed2 closure=0.00043 Eind=204702.8 elapsed=204s
+run 28 ANG_G_d0.02_PU LADDER seed0 closure=0.00044 Eind=184572.9 elapsed=212s
+run 29 ANG_G_d0.02_PU LADDER seed1 closure=0.00039 Eind=185817.1 elapsed=220s
+run 30 ANG_G_d0.02_PU LADDER seed2 closure=0.00043 Eind=185033.1 elapsed=227s
+run 31 ANG_G_d0.02_PD LADDER seed0 closure=0.00044 Eind=185451.4 elapsed=235s
+run 32 ANG_G_d0.02_PD LADDER seed1 closure=0.00039 Eind=184687.5 elapsed=242s
+run 33 ANG_G_d0.02_PD LADDER seed2 closure=0.00043 Eind=184251.9 elapsed=250s
+run 34 ANG_G_d0.10_TP LADDER seed0 closure=0.00044 Eind=104273.4 elapsed=258s
+run 35 ANG_G_d0.10_TP LADDER seed1 closure=0.00039 Eind=103320.8 elapsed=266s
+run 36 ANG_G_d0.10_TP LADDER seed2 closure=0.00043 Eind=103144.9 elapsed=273s
+run 37 ANG_G_d0.10_PU LADDER seed0 closure=0.00044 Eind=184572.9 elapsed=281s
+run 38 ANG_G_d0.10_PU LADDER seed1 closure=0.00039 Eind=185817.1 elapsed=289s
+run 39 ANG_G_d0.10_PU LADDER seed2 closure=0.00043 Eind=185033.1 elapsed=296s
+run 40 ANG_G_d0.10_PD LADDER seed0 closure=0.00044 Eind=185451.4 elapsed=304s
+run 41 ANG_G_d0.10_PD LADDER seed1 closure=0.00039 Eind=184687.5 elapsed=312s
+run 42 ANG_G_d0.10_PD LADDER seed2 closure=0.00043 Eind=184251.9 elapsed=319s
+run 43 H_d0.02 LADDER seed0 closure=0.00044 Eind=25498.1 elapsed=327s
+run 44 H_d0.02 LADDER seed1 closure=0.00040 Eind=21335.8 elapsed=334s
+run 45 H_d0.02 LADDER seed2 closure=0.00044 Eind=28929.0 elapsed=342s
+run 46 H_d0.10 LADDER seed0 closure=0.00044 Eind=143272.3 elapsed=350s
+run 47 H_d0.10 LADDER seed1 closure=0.00040 Eind=155753.7 elapsed=357s
+run 48 H_d0.10 LADDER seed2 closure=0.00044 Eind=136289.7 elapsed=365s
+run 49 PLACEBO_B LADDER seed0 closure=0.00045 Eind=143059.1 elapsed=372s
+run 50 PLACEBO_B LADDER seed1 closure=0.00041 Eind=143059.3 elapsed=380s
+run 51 PLACEBO_B LADDER seed2 closure=0.00044 Eind=143088.9 elapsed=388s
+Traceback (most recent call last):
+  File "/home/hatch/workspace/harness-dev/riemann_inducer_sim.py", line 446, in <module>
+    main()
+  File "/home/hatch/workspace/harness-dev/riemann_inducer_sim.py", line 438, in main
+    w.writeheader(); w.writerows(rows)
+                     ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/csv.py", line 167, in writerows
+    return self.writer.writerows(map(self._dict_to_list, rowdicts))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/csv.py", line 159, in _dict_to_list
+    raise ValueError("dict contains fields not in fieldnames: "
+ValueError: dict contains fields not in fieldnames: 'winmax_rin0_EARLY', 'tpeak_A_in5_SETTLED_amp', 'winmax_A_in5_DRIVE_END', 'demod_rin0_SETTLED_amp', 'tpeak_A_out_SETTLED_freq', 'demod_A_in5_SETTLED_phase', 'tpeak_A_out_SETTLED_amp', 'demod_rin0_DRIVE_END_amp', 'demod_rin0_EARLY_amp', 'demod_A_in5_DRIVE_END_amp', 'tpeak_A_out_EARLY_amp', 'winmax_A_out_DRIVE_END', 'demod_rin0_EARLY_phase', 'tpeak_A_in5_DRIVE_END_amp', 'demod_A_out_SETTLED_phase', 'tpeak_rin0_SETTLED_freq', 'tpeak_rin0_SETTLED_amp', 'demod_A_out_DRIVE_END_amp', 'winmax_A_in5_SETTLED', 'tpeak_A_out_EARLY_freq', 'tpeak_A_in5_DRIVE_END_freq', 'demod_A_out_DRIVE_END_phase', 'winmax_A_in5_EARLY', 'demod_A_in5_DRIVE_END_phase', 'tpeak_rin0_EARLY_amp', 'tpeak_A_in5_EARLY_freq', 'demod_A_out_SETTLED_amp', 'tpeak_rin0_DRIVE_END_amp', 'demod_rin0_SETTLED_phase', 'demod_A_in5_SETTLED_amp', 'tpeak_A_in5_EARLY_amp', 'tpeak_A_in5_SETTLED_freq', 'tpeak_rin0_DRIVE_END_freq', 'winmax_A_out_EARLY', 'winmax_rin0_SETTLED', 'demod_rin0_DRIVE_END_phase', 'winmax_A_out_SETTLED', 'demod_A_in5_EARLY_phase', 'tpeak_A_out_DRIVE_END_freq', 'tpeak_A_out_DRIVE_END_amp', 'winmax_rin0_DRIVE_END', 'demod_A_out_EARLY_phase', 'demod_A_out_EARLY_amp', 'tpeak_rin0_EARLY_freq', 'demod_A_in5_EARLY_amp'
