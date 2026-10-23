@@ -1,0 +1,81 @@
+{
+  "iteration": 8,
+  "name": "THIRD DIMENSION + RE-SEED CONSISTENCY",
+  "order": "Zak 2026-10-22 ~23:38 EDT: add third dimension; define transitions in re-seed and consistencies, possibly leading to a maximal input consistency preventing re-seed necessity or limiting maximum re-seed amplitude; follow seed and re-seed ring-down with increasing resolution through modulation learned in other iterations.",
+  "written_before_any_run": true,
+  "base": "iteration 6/7 engine (riemann_capacitor_sim.run_cap): TP cavity A (FP=0.025) + cylinder B, transducer A79 in every run (iter-3 limits G=250 VSAT=10.9 EGATE=5.4e3 ETA=0.5), inducer tone G=20.2147, capacitor kappa=2pi*G/2 (f_bare=10.10735). Base geometry = iteration-6 winner: inducer (0.69, 0deg), capacitor (0.79, 15deg).",
+  "phaseA_3d_construction": {
+    "grid": "cavity A physical grid (x,z): 48 x-midpoints (iter-6) x NZ=16 z-midpoints of [0,1]",
+    "mode_axial_structure": "mode n (NIDX 1..30) gets axial wavenumber m_n = n mod 3 in {0,1,2}; axial envelope chi_n(z) = sqrt(2) cos(pi m_n z) for m_n>=1, 1 for m_n=0 (unit RMS over z). Mode shapes Phi[(x,z),n] = sin(pi n x) chi_n(z). Eigenfrequencies UNCHANGED (ladder + flow/detune as iter 2): the ladder IS the spectrum; axial structure is spatial only (modal-toy convention, stated).",
+    "kz_switch": "KZ=1: axial structure active. KZ=0 (collapsed / z-uniform limit): all chi_n = 1, profiles via iteration-6 2D builders verbatim, nonlinearity on the 48-grid verbatim. KZ=0 IS the z-uniform configuration of the task's G0.",
+    "element_profiles": "b(x,z) = exp(-(x-xc)^2/(2*0.06^2)) * exp(-(z-zc)^2/(2*sigma_z^2)), sigma_z=0.12; W = (2/(48*NZ)) Phi^T b * cos(NIDX*theta). z_uniform flag replaces the z factor by 1. Capacitor profile normalized to unit modal L2 (iter-6 convention). Transducer: raw projection of bump at (0.79, z=0.5), no cos factor (TS a_profile convention). Inducer not normalized (iter-6 convention).",
+    "pickups": "40 channels: A_in{1..5} at z in {0.25,0.5,0.75} (rows sin(pi n x) chi_n(z)); A_out at same 3 z (port readout); B_in{1..5}+B_out unchanged (iter-2); rings rin/rout at z=0.5 (iter-6 ring matrices, columns scaled by chi_n(0.5)). BASE12Z (scatter-distance channel set) = A_in1..5@z0.5 + A_out@z0.5 + B 6ch = 12, the iter-6 BASE12 continuation.",
+    "G0_gate": "KZ=0, z-uniform profiles, seeds 0-2, LADDER: winner cell ind_frac median and OFFCAP ind_frac median must match iteration 6 (0.00685, 0.016569) within 2% (ledger metrics are rec-noise-free; expected float-assoc agreement ~1e-6); P within 0.03 absolute. If G0 fails: HALT, diagnose, no Phase B.",
+    "A_sanity": "KZ=1: (i) z-uniform-profile winner (mapping/offset disposition), (ii) capacitor z-sweep {0.1,0.3,0.5,0.7,0.9} at winner (x,theta), inducer z=0.5; (iii) trap: inducer standoff d in {0.10,0.18,0.24,0.28,0.40} at z=0.5 with winner capacitor at z=0.5, plus d in {0.10,0.24} at inducer z in {0.25,0.75}. 3 seeds each, LADDER."
+  },
+  "phaseB_definitions": {
+    "SEED": "the run's rng seed: drive-phase draw rng(10000+seed) (engine convention iters 1-7) + readout noise from the same stream. Ensemble = seeds 0..7 (>=8) at fixed configuration + protocol.",
+    "RESEED_EVENT": "at the first RK4 step with t >= T_OFF (ladder drive-off / ring-down start): for every mode of BOTH cavities, with a_n = omega_n q_n + i v_n (per-mode energy E_n = |a_n|^2/2), the phase angle phi_n = arg(a_n) is rotated toward a fresh uniform draw psi_n (rng stream 20000+seed) by the fraction A_reseed: phi_n' = phi_n + A * wrap(psi_n - phi_n); q_n, v_n rebuilt from |a_n|, phi_n'. Per-mode energies are EXACTLY invariant; A=0 is the identity (no rng draws, bitwise baseline); A=1 is a full re-phase at fixed modal energies. env/pool/capacitor state untouched. A_reseed is thus exactly the fraction of the residual field's phase content replaced, at invariant modal energy spectrum.",
+    "CONSISTENCY": "of a metric = SD and max |deviation from ensemble mean| across the >=8-seed ensemble.",
+    "headline_metrics": [
+      "ind_frac (whole-run, context)",
+      "P = demod tone G SETTLED/DRIVE_END at A_in5@z0.5",
+      "demod_settled_amp",
+      "B_share_post (diss+rad, t>=T_OFF only)",
+      "B_share_out (whole-run)",
+      "d_off_settled, d_line_settled (per-seed medians, SETTLED, BASE12Z candidate peaks)",
+      "slope_settled",
+      "closure_frac"
+    ],
+    "A_MAX_RULE": "A_max = largest A_reseed in {0,0.1,0.25,0.5,0.75,1.0} such that for EVERY post-reseed metric in {P, demod_settled_amp, B_share_post, d_off_settled, d_line_settled, slope_settled}: SD_A <= 1.5 * SD_0 AND |mean_A - mean_0| <= 1.5 * SD_0. If A=1.0 passes, re-seed is absorbed at the metric level at all amplitudes (re-seed necessity prevented, for these metrics).",
+    "controls_B": "DETUNE and SHIFT arms at A in {0,1}, seeds 0..3; placebo capacitor (0.13, 0deg, z=0.5) at A in {0,1}, seeds 0..3; all at winner geometry otherwise."
+  },
+  "phaseC_protocols": {
+    "knobs": "ladder-drive only (inducer/capacitor/transducer conventions unchanged): duration T_OFF in {2,4}, ramp tau in {0 (step), 0.5 (base), 2.0}, modulation NONE / AM@MEAN_GAP depth 0.5 / FM@MEAN_GAP dev 0.5 (iteration-1 values).",
+    "cells": [
+      "BASE NONE ramp0.5 T4 (= Phase B A=0 ensemble, reused)",
+      "STEP NONE ramp0 T4",
+      "SLOWRAMP NONE ramp2.0 T4",
+      "SHORT NONE ramp0.5 T2",
+      "AM AM ramp0.5 T4",
+      "FM FM ramp0.5 T4"
+    ],
+    "seeds": "0..7 per cell",
+    "maximal_consistency": "composite = median over {ind_frac, P, B_share_out, d_off_settled} of SD_cell/SD_BASE; maximal-consistency input = argmin composite. Seed-independence flag: any metric with SD/|mean| < 1e-3."
+  },
+  "phaseD_ringdown_resolution": {
+    "channels": "A_in5@z0.5 primary (+ A_in5@z0.25, A_out@z0.5, B_in1 saved)",
+    "ladder": "ring-down windows ending 7.9 s, lengths L in {0.9, 1.8, 3.6} s (df = 1.11, 0.556, 0.278 Hz; resolution x1, x2, x4), Blackman-Harris FFT peak-picking (window_peaks construction)",
+    "tests": "(1) amplitude-line test: lines present in >=6/8 reseeded-ensemble spectra (per-rung peak lists) absent from the baseline ensemble at that rung (tol = rung df) -> full 3D audit6 before anything is called a signature. (2) heterodyne (modulated) readout: demod at G and G+-MEAN_GAP over each rung window; per-mode phase-coherence statistic at F_EIG_A (cross-seed circular SD, baseline vs reseeded).",
+    "ensembles": "baseline protocol: A=0 vs A=A_max vs A=1 (Phase B runs). Winner protocol of Phase C: its A=0 ensemble (Phase C) vs a fresh A=1 ensemble at the same protocol (8 runs). DETUNE A=1 (Phase B controls) as arm control."
+  },
+  "pivot_prestated": "ONE pivot, follow-the-data: if A_max = 1.0 (full re-phase absorbed by every metric), Phase D emphasis shifts from amplitude lines to the phase-domain readout (test (2) becomes primary) \u2014 pre-stated here, not improvised.",
+  "gates_all_phases": "closure_frac <= 0.001 headline (report max); slope_settled <= 0.005; sat_frac reported (suppression regimes flagged when DRIVE_END demod < 0.240, iter-6 guard floor); clamp_count = 0 expected; audit6 (base + flow + inducer + capacitor targets at f_bare and the 3D-measured f_ring) before any UNEXPLAINED claim; nulls unsoftened; sim-internal claims only.",
+  "cut_order": "Phase D top resolution rung, then Phase C cells (never ensembles), then Phase A sanity sweeps.",
+  "phaseE_addendum": {
+    "order": "Zak 2026-10-22 ~23:54 EDT scope addition, integrated as Phase E at winner-class geometry (finished phases not re-run). Written before any Phase E run.",
+    "E1_adjusted_inducer": {
+      "config": "inducer at trap standoff d=0.24 (x=0.55, theta=0) AND z-offset z=0.25 (off mid-plane); winner capacitor (0.79,15deg,z=0.5); standard transducer.",
+      "runs": "full re-seed sweep A in {0,0.1,0.25,0.5,0.75,1.0} x seeds 0..7, LADDER, dense pickups.",
+      "question": "does moving the inducer in z (and onto the trap standoff) change the re-seed consistency / A_max picture? A_max computed by the identical Phase B rule and compared to WIN3D.",
+      "adjustment_set_note": "the small 3D inducer adjustment set (z-offsets at d=0.10/0.24, standoffs at z=0.5) is Phase A's TRAP/TRAPZ cells; E1 adds the >=8-seed ensemble."
+    },
+    "E2_two_capacitors": {
+      "config": "capacitor 1 = winner (0.79, 15deg, z=0.5); capacitor 2 = same (x,theta), axial partner at z=0.30 (offset -0.20 from mid-plane). Both kappa = 2pi*G/2, unit-L2 profiles.",
+      "ledger": "state gains a second charge q2; E_cap_end = (q1^2+q2^2)/2 is the single storage line in closure, per-cap ends E_cap1_end/E_cap2_end reported separately. Gate: closure_frac <= 0.001 (same as all phases).",
+      "runs": "A in {0,1} x seeds 0..7, LADDER, dense pickups. Headline metrics + 8-seed consistency at A=0 and full-reseed response at A=1."
+    },
+    "E3_anti_mirror": {
+      "layout_name": "ANTI-MIRROR",
+      "transform": "(x, theta) -> (x, theta+180deg), z -> 1-z, applied to transducer (0.79, 0->180deg, 0.5->0.5), inducer (0.69, 0->180deg, 0.5->0.5), capacitor (0.79, 15->195deg, 0.5->0.5).",
+      "runs": "A in {0,1} x seeds 0..7 LADDER (consistency ensemble); DETUNE/SHIFT A=0 seeds 0..3 (Riemann control spread); anti-mirror trap cells d in {0.10,0.24} A=0 seeds 0..2. Dense pickups.",
+      "criterion": "layout effect claimed only where an anti-mirror headline metric (ind_frac, P, B_share_out/post, settled d_off/d_line) differs from standard WIN3D beyond the standard's own control spread (max |delta| across DETUNE/SHIFT/placebo at matched A, Phase B); otherwise reported as no layout effect at this resolution."
+    },
+    "E4_dense_pickups": {
+      "counts": "base array 40 ch: A_in 15 (5x x 3z), A_out 3, B 6, rings 16 (8 pos x in/out, z=0.5). Dense array 116 ch (as built): A_in 25 (5x x 5z {0.125,0.25,0.5,0.75,0.875}), A_out 5, B 6, rings 80 (8 pos x in/out x 5z).",
+      "runs": "all Phase E focus configs use the dense array; plus E_DENSEWIN = standard winner geometry on the dense array, A in {0,1} x seeds 0..7 (dynamics are pickup-independent; only readout noise realisation differs).",
+      "phaseD_question": "repeat the Phase D amplitude-line test on dense A_in5@z0.50 (A=0 vs A=1, and vs A=A_max via EDMAX run if A_max not in {0,1}) and census settled candidate lines across the dense ring channels; report whether any Phase D conclusion changes."
+    },
+    "cut_order_update": "Phase E items outrank Phase D's top resolution rung (3.6 s) but not the >=8-seed ensembles or G0."
+  }
+}
