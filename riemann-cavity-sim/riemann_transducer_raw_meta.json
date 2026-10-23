@@ -1,0 +1,850 @@
+{
+ "runs": [
+  {
+   "run_id": 1,
+   "config": "OFF",
+   "arm": "LADDER",
+   "modulation": "NONE",
+   "seed": 0
+  },
+  {
+   "run_id": 2,
+   "config": "OFF",
+   "arm": "LADDER",
+   "modulation": "NONE",
+   "seed": 1
+  },
+  {
+   "run_id": 3,
+   "config": "OFF",
+   "arm": "LADDER",
+   "modulation": "NONE",
+   "seed": 2
+  },
+  {
+   "run_id": 4,
+   "config": "OFF",
+   "arm": "LADDER",
+   "modulation": "AM",
+   "seed": 0
+  },
+  {
+   "run_id": 5,
+   "config": "OFF",
+   "arm": "LADDER",
+   "modulation": "AM",
+   "seed": 1
+  },
+  {
+   "run_id": 6,
+   "config": "OFF",
+   "arm": "LADDER",
+   "modulation": "AM",
+   "seed": 2
+  },
+  {
+   "run_id": 7,
+   "config": "OFF",
+   "arm": "DETUNE",
+   "modulation": "NONE",
+   "seed": 0
+  },
+  {
+   "run_id": 8,
+   "config": "OFF",
+   "arm": "DETUNE",
+   "modulation": "NONE",
+   "seed": 1
+  },
+  {
+   "run_id": 9,
+   "config": "OFF",
+   "arm": "DETUNE",
+   "modulation": "NONE",
+   "seed": 2
+  },
+  {
+   "run_id": 10,
+   "config": "OFF",
+   "arm": "DETUNE",
+   "modulation": "AM",
+   "seed": 0
+  },
+  {
+   "run_id": 11,
+   "config": "OFF",
+   "arm": "DETUNE",
+   "modulation": "AM",
+   "seed": 1
+  },
+  {
+   "run_id": 12,
+   "config": "OFF",
+   "arm": "DETUNE",
+   "modulation": "AM",
+   "seed": 2
+  },
+  {
+   "run_id": 13,
+   "config": "OFF",
+   "arm": "SHIFT",
+   "modulation": "NONE",
+   "seed": 0
+  },
+  {
+   "run_id": 14,
+   "config": "OFF",
+   "arm": "SHIFT",
+   "modulation": "NONE",
+   "seed": 1
+  },
+  {
+   "run_id": 15,
+   "config": "OFF",
+   "arm": "SHIFT",
+   "modulation": "NONE",
+   "seed": 2
+  },
+  {
+   "run_id": 16,
+   "config": "OFF",
+   "arm": "SHIFT",
+   "modulation": "AM",
+   "seed": 0
+  },
+  {
+   "run_id": 17,
+   "config": "OFF",
+   "arm": "SHIFT",
+   "modulation": "AM",
+   "seed": 1
+  },
+  {
+   "run_id": 18,
+   "config": "OFF",
+   "arm": "SHIFT",
+   "modulation": "AM",
+   "seed": 2
+  },
+  {
+   "run_id": 19,
+   "config": "A79",
+   "arm": "LADDER",
+   "modulation": "NONE",
+   "seed": 0
+  },
+  {
+   "run_id": 20,
+   "config": "A79",
+   "arm": "LADDER",
+   "modulation": "NONE",
+   "seed": 1
+  },
+  {
+   "run_id": 21,
+   "config": "A79",
+   "arm": "LADDER",
+   "modulation": "NONE",
+   "seed": 2
+  },
+  {
+   "run_id": 22,
+   "config": "A79",
+   "arm": "LADDER",
+   "modulation": "AM",
+   "seed": 0
+  },
+  {
+   "run_id": 23,
+   "config": "A79",
+   "arm": "LADDER",
+   "modulation": "AM",
+   "seed": 1
+  },
+  {
+   "run_id": 24,
+   "config": "A79",
+   "arm": "LADDER",
+   "modulation": "AM",
+   "seed": 2
+  },
+  {
+   "run_id": 25,
+   "config": "A79",
+   "arm": "DETUNE",
+   "modulation": "NONE",
+   "seed": 0
+  },
+  {
+   "run_id": 26,
+   "config": "A79",
+   "arm": "DETUNE",
+   "modulation": "NONE",
+   "seed": 1
+  },
+  {
+   "run_id": 27,
+   "config": "A79",
+   "arm": "DETUNE",
+   "modulation": "NONE",
+   "seed": 2
+  },
+  {
+   "run_id": 28,
+   "config": "A79",
+   "arm": "DETUNE",
+   "modulation": "AM",
+   "seed": 0
+  },
+  {
+   "run_id": 29,
+   "config": "A79",
+   "arm": "DETUNE",
+   "modulation": "AM",
+   "seed": 1
+  },
+  {
+   "run_id": 30,
+   "config": "A79",
+   "arm": "DETUNE",
+   "modulation": "AM",
+   "seed": 2
+  },
+  {
+   "run_id": 31,
+   "config": "A79",
+   "arm": "SHIFT",
+   "modulation": "NONE",
+   "seed": 0
+  },
+  {
+   "run_id": 32,
+   "config": "A79",
+   "arm": "SHIFT",
+   "modulation": "NONE",
+   "seed": 1
+  },
+  {
+   "run_id": 33,
+   "config": "A79",
+   "arm": "SHIFT",
+   "modulation": "NONE",
+   "seed": 2
+  },
+  {
+   "run_id": 34,
+   "config": "A79",
+   "arm": "SHIFT",
+   "modulation": "AM",
+   "seed": 0
+  },
+  {
+   "run_id": 35,
+   "config": "A79",
+   "arm": "SHIFT",
+   "modulation": "AM",
+   "seed": 1
+  },
+  {
+   "run_id": 36,
+   "config": "A79",
+   "arm": "SHIFT",
+   "modulation": "AM",
+   "seed": 2
+  },
+  {
+   "run_id": 37,
+   "config": "A61",
+   "arm": "LADDER",
+   "modulation": "NONE",
+   "seed": 0
+  },
+  {
+   "run_id": 38,
+   "config": "A61",
+   "arm": "LADDER",
+   "modulation": "NONE",
+   "seed": 1
+  },
+  {
+   "run_id": 39,
+   "config": "A61",
+   "arm": "LADDER",
+   "modulation": "NONE",
+   "seed": 2
+  },
+  {
+   "run_id": 40,
+   "config": "A61",
+   "arm": "LADDER",
+   "modulation": "AM",
+   "seed": 0
+  },
+  {
+   "run_id": 41,
+   "config": "A61",
+   "arm": "LADDER",
+   "modulation": "AM",
+   "seed": 1
+  },
+  {
+   "run_id": 42,
+   "config": "A61",
+   "arm": "LADDER",
+   "modulation": "AM",
+   "seed": 2
+  },
+  {
+   "run_id": 43,
+   "config": "A61",
+   "arm": "DETUNE",
+   "modulation": "NONE",
+   "seed": 0
+  },
+  {
+   "run_id": 44,
+   "config": "A61",
+   "arm": "DETUNE",
+   "modulation": "NONE",
+   "seed": 1
+  },
+  {
+   "run_id": 45,
+   "config": "A61",
+   "arm": "DETUNE",
+   "modulation": "NONE",
+   "seed": 2
+  },
+  {
+   "run_id": 46,
+   "config": "A61",
+   "arm": "DETUNE",
+   "modulation": "AM",
+   "seed": 0
+  },
+  {
+   "run_id": 47,
+   "config": "A61",
+   "arm": "DETUNE",
+   "modulation": "AM",
+   "seed": 1
+  },
+  {
+   "run_id": 48,
+   "config": "A61",
+   "arm": "DETUNE",
+   "modulation": "AM",
+   "seed": 2
+  },
+  {
+   "run_id": 49,
+   "config": "A61",
+   "arm": "SHIFT",
+   "modulation": "NONE",
+   "seed": 0
+  },
+  {
+   "run_id": 50,
+   "config": "A61",
+   "arm": "SHIFT",
+   "modulation": "NONE",
+   "seed": 1
+  },
+  {
+   "run_id": 51,
+   "config": "A61",
+   "arm": "SHIFT",
+   "modulation": "NONE",
+   "seed": 2
+  },
+  {
+   "run_id": 52,
+   "config": "A61",
+   "arm": "SHIFT",
+   "modulation": "AM",
+   "seed": 0
+  },
+  {
+   "run_id": 53,
+   "config": "A61",
+   "arm": "SHIFT",
+   "modulation": "AM",
+   "seed": 1
+  },
+  {
+   "run_id": 54,
+   "config": "A61",
+   "arm": "SHIFT",
+   "modulation": "AM",
+   "seed": 2
+  },
+  {
+   "run_id": 55,
+   "config": "APORT",
+   "arm": "LADDER",
+   "modulation": "NONE",
+   "seed": 0
+  },
+  {
+   "run_id": 56,
+   "config": "APORT",
+   "arm": "LADDER",
+   "modulation": "NONE",
+   "seed": 1
+  },
+  {
+   "run_id": 57,
+   "config": "APORT",
+   "arm": "LADDER",
+   "modulation": "NONE",
+   "seed": 2
+  },
+  {
+   "run_id": 58,
+   "config": "APORT",
+   "arm": "LADDER",
+   "modulation": "AM",
+   "seed": 0
+  },
+  {
+   "run_id": 59,
+   "config": "APORT",
+   "arm": "LADDER",
+   "modulation": "AM",
+   "seed": 1
+  },
+  {
+   "run_id": 60,
+   "config": "APORT",
+   "arm": "LADDER",
+   "modulation": "AM",
+   "seed": 2
+  },
+  {
+   "run_id": 61,
+   "config": "APORT",
+   "arm": "DETUNE",
+   "modulation": "NONE",
+   "seed": 0
+  },
+  {
+   "run_id": 62,
+   "config": "APORT",
+   "arm": "DETUNE",
+   "modulation": "NONE",
+   "seed": 1
+  },
+  {
+   "run_id": 63,
+   "config": "APORT",
+   "arm": "DETUNE",
+   "modulation": "NONE",
+   "seed": 2
+  },
+  {
+   "run_id": 64,
+   "config": "APORT",
+   "arm": "DETUNE",
+   "modulation": "AM",
+   "seed": 0
+  },
+  {
+   "run_id": 65,
+   "config": "APORT",
+   "arm": "DETUNE",
+   "modulation": "AM",
+   "seed": 1
+  },
+  {
+   "run_id": 66,
+   "config": "APORT",
+   "arm": "DETUNE",
+   "modulation": "AM",
+   "seed": 2
+  },
+  {
+   "run_id": 67,
+   "config": "APORT",
+   "arm": "SHIFT",
+   "modulation": "NONE",
+   "seed": 0
+  },
+  {
+   "run_id": 68,
+   "config": "APORT",
+   "arm": "SHIFT",
+   "modulation": "NONE",
+   "seed": 1
+  },
+  {
+   "run_id": 69,
+   "config": "APORT",
+   "arm": "SHIFT",
+   "modulation": "NONE",
+   "seed": 2
+  },
+  {
+   "run_id": 70,
+   "config": "APORT",
+   "arm": "SHIFT",
+   "modulation": "AM",
+   "seed": 0
+  },
+  {
+   "run_id": 71,
+   "config": "APORT",
+   "arm": "SHIFT",
+   "modulation": "AM",
+   "seed": 1
+  },
+  {
+   "run_id": 72,
+   "config": "APORT",
+   "arm": "SHIFT",
+   "modulation": "AM",
+   "seed": 2
+  },
+  {
+   "run_id": 73,
+   "config": "BCROSS",
+   "arm": "LADDER",
+   "modulation": "NONE",
+   "seed": 0
+  },
+  {
+   "run_id": 74,
+   "config": "BCROSS",
+   "arm": "LADDER",
+   "modulation": "NONE",
+   "seed": 1
+  },
+  {
+   "run_id": 75,
+   "config": "BCROSS",
+   "arm": "LADDER",
+   "modulation": "NONE",
+   "seed": 2
+  },
+  {
+   "run_id": 76,
+   "config": "BCROSS",
+   "arm": "LADDER",
+   "modulation": "AM",
+   "seed": 0
+  },
+  {
+   "run_id": 77,
+   "config": "BCROSS",
+   "arm": "LADDER",
+   "modulation": "AM",
+   "seed": 1
+  },
+  {
+   "run_id": 78,
+   "config": "BCROSS",
+   "arm": "LADDER",
+   "modulation": "AM",
+   "seed": 2
+  },
+  {
+   "run_id": 79,
+   "config": "BCROSS",
+   "arm": "DETUNE",
+   "modulation": "NONE",
+   "seed": 0
+  },
+  {
+   "run_id": 80,
+   "config": "BCROSS",
+   "arm": "DETUNE",
+   "modulation": "NONE",
+   "seed": 1
+  },
+  {
+   "run_id": 81,
+   "config": "BCROSS",
+   "arm": "DETUNE",
+   "modulation": "NONE",
+   "seed": 2
+  },
+  {
+   "run_id": 82,
+   "config": "BCROSS",
+   "arm": "DETUNE",
+   "modulation": "AM",
+   "seed": 0
+  },
+  {
+   "run_id": 83,
+   "config": "BCROSS",
+   "arm": "DETUNE",
+   "modulation": "AM",
+   "seed": 1
+  },
+  {
+   "run_id": 84,
+   "config": "BCROSS",
+   "arm": "DETUNE",
+   "modulation": "AM",
+   "seed": 2
+  },
+  {
+   "run_id": 85,
+   "config": "BCROSS",
+   "arm": "SHIFT",
+   "modulation": "NONE",
+   "seed": 0
+  },
+  {
+   "run_id": 86,
+   "config": "BCROSS",
+   "arm": "SHIFT",
+   "modulation": "NONE",
+   "seed": 1
+  },
+  {
+   "run_id": 87,
+   "config": "BCROSS",
+   "arm": "SHIFT",
+   "modulation": "NONE",
+   "seed": 2
+  },
+  {
+   "run_id": 88,
+   "config": "BCROSS",
+   "arm": "SHIFT",
+   "modulation": "AM",
+   "seed": 0
+  },
+  {
+   "run_id": 89,
+   "config": "BCROSS",
+   "arm": "SHIFT",
+   "modulation": "AM",
+   "seed": 1
+  },
+  {
+   "run_id": 90,
+   "config": "BCROSS",
+   "arm": "SHIFT",
+   "modulation": "AM",
+   "seed": 2
+  },
+  {
+   "run_id": 91,
+   "config": "PLACEBO",
+   "arm": "LADDER",
+   "modulation": "NONE",
+   "seed": 0
+  },
+  {
+   "run_id": 92,
+   "config": "PLACEBO",
+   "arm": "LADDER",
+   "modulation": "NONE",
+   "seed": 1
+  },
+  {
+   "run_id": 93,
+   "config": "PLACEBO",
+   "arm": "LADDER",
+   "modulation": "NONE",
+   "seed": 2
+  },
+  {
+   "run_id": 94,
+   "config": "PLACEBO",
+   "arm": "LADDER",
+   "modulation": "AM",
+   "seed": 0
+  },
+  {
+   "run_id": 95,
+   "config": "PLACEBO",
+   "arm": "LADDER",
+   "modulation": "AM",
+   "seed": 1
+  },
+  {
+   "run_id": 96,
+   "config": "PLACEBO",
+   "arm": "LADDER",
+   "modulation": "AM",
+   "seed": 2
+  },
+  {
+   "run_id": 97,
+   "config": "PLACEBO",
+   "arm": "DETUNE",
+   "modulation": "NONE",
+   "seed": 0
+  },
+  {
+   "run_id": 98,
+   "config": "PLACEBO",
+   "arm": "DETUNE",
+   "modulation": "NONE",
+   "seed": 1
+  },
+  {
+   "run_id": 99,
+   "config": "PLACEBO",
+   "arm": "DETUNE",
+   "modulation": "NONE",
+   "seed": 2
+  },
+  {
+   "run_id": 100,
+   "config": "PLACEBO",
+   "arm": "DETUNE",
+   "modulation": "AM",
+   "seed": 0
+  },
+  {
+   "run_id": 101,
+   "config": "PLACEBO",
+   "arm": "DETUNE",
+   "modulation": "AM",
+   "seed": 1
+  },
+  {
+   "run_id": 102,
+   "config": "PLACEBO",
+   "arm": "DETUNE",
+   "modulation": "AM",
+   "seed": 2
+  },
+  {
+   "run_id": 103,
+   "config": "PLACEBO",
+   "arm": "SHIFT",
+   "modulation": "NONE",
+   "seed": 0
+  },
+  {
+   "run_id": 104,
+   "config": "PLACEBO",
+   "arm": "SHIFT",
+   "modulation": "NONE",
+   "seed": 1
+  },
+  {
+   "run_id": 105,
+   "config": "PLACEBO",
+   "arm": "SHIFT",
+   "modulation": "NONE",
+   "seed": 2
+  },
+  {
+   "run_id": 106,
+   "config": "PLACEBO",
+   "arm": "SHIFT",
+   "modulation": "AM",
+   "seed": 0
+  },
+  {
+   "run_id": 107,
+   "config": "PLACEBO",
+   "arm": "SHIFT",
+   "modulation": "AM",
+   "seed": 1
+  },
+  {
+   "run_id": 108,
+   "config": "PLACEBO",
+   "arm": "SHIFT",
+   "modulation": "AM",
+   "seed": 2
+  }
+ ],
+ "TR": {
+  "G": 250.0,
+  "V_SAT": 10.9,
+  "EGATE": 5400.0
+ },
+ "ETA": 0.5,
+ "TAU_ENV": 0.25,
+ "sites": {
+  "A79": {
+   "cavity": "A",
+   "nearest_pickup": "A_in5",
+   "neighbours": [
+    "A_in1",
+    "A_in2",
+    "A_in3",
+    "A_in4",
+    "A_out"
+   ]
+  },
+  "A61": {
+   "cavity": "A",
+   "nearest_pickup": "A_in4",
+   "neighbours": [
+    "A_in1",
+    "A_in2",
+    "A_in3",
+    "A_in5",
+    "A_out"
+   ]
+  },
+  "APORT": {
+   "cavity": "A",
+   "nearest_pickup": "A_out",
+   "neighbours": [
+    "A_in1",
+    "A_in2",
+    "A_in3",
+    "A_in4",
+    "A_in5"
+   ]
+  },
+  "BCROSS": {
+   "cavity": "B",
+   "nearest_pickup": "B_in4",
+   "neighbours": [
+    "B_in1",
+    "B_in2",
+    "B_in3",
+    "B_in5",
+    "B_out"
+   ]
+  },
+  "PLACEBO": {
+   "cavity": "B",
+   "nearest_pickup": "B_in1",
+   "neighbours": [
+    "B_in2",
+    "B_in3",
+    "B_in4",
+    "B_in5",
+    "B_out"
+   ]
+  }
+ },
+ "g1_by_config": {
+  "OFF": {
+   "hits": 266,
+   "total": 270
+  },
+  "A79": {
+   "hits": 266,
+   "total": 270
+  },
+  "A61": {
+   "hits": 266,
+   "total": 270
+  },
+  "APORT": {
+   "hits": 266,
+   "total": 270
+  },
+  "BCROSS": {
+   "hits": 266,
+   "total": 270
+  },
+  "PLACEBO": {
+   "hits": 266,
+   "total": 270
+  }
+ }
+}
