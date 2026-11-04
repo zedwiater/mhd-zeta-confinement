@@ -105,4 +105,33 @@ with anti-phased residuals. This note is the frame those results are
 interpreted in — offered so the next person can break the frame, not
 just the numbers.
 
+
+## Addendum (2026-11-04): the settlement prediction
+
+Extended from the framing above, and from measurements in the sister
+program (Wave Ladder iterations 12–13): **in any wave system that has,
+forms, or could form currents, the structures that persist settle on
+that system's own marginality line.** The ocean gyre is the same claim
+in another medium — debris accumulates where convergence balances
+dispersal, with no central pull — and the critical line is proposed as
+the Riemann instance of the same seat.
+
+Measured instance, with its control: settlement occurred under every
+coupling tested; on-line settlement (pooled median |\u03bb| = 0.00299,
+9 of 12 inside \u03b5) occurred only under the true binder, against a
+scrambled control at 0.0117 that locked structures without
+marginalizing them. The conjecture framing of this document is
+unchanged; this is a claim about where persistent structures sit, not
+a proof about zeros.
+
+Additional falsifier, joining the four already named in this note:
+
+5. **Scrambled settlement.** If, in a current-forming system whose
+   marginality coordinate is defined from its own dynamics, a
+   scrambled-coupling control settles within the band just as often as
+   the true coupling, the settlement claim fails. The band's width is
+   itself an open measurement: \u03b5 = 0.005 was chosen as a gate, not
+   measured as a coupling width.
+
+
 *Measurements before metaphors — and proofs before either.*
