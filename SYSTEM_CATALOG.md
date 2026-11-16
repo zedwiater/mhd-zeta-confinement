@@ -60,7 +60,13 @@ tier therefore carries He-II as a **literature-digitization task with
 page-level provenance per value**, not as downloaded data.
 
 **Whale data block (added 2026-11-16, on Zak's order — the
-hyper-expression test case).** Rolvien et al. 2017 (vertebral bone
+hyper-expression test case).** FRAMING, corrected by Zak 12:04 ET:
+the claim is NOT that bone density shows how deep they go. Proper
+bone density and system balance ALLOW the option for traversal
+range — an aptitude assignment: tier authority given through evolved
+system balance and expression ("going with the flow or lassoing
+it"). The data below is therefore evidence about balance
+architecture, not a depth gauge. Rolvien et al. 2017 (vertebral bone
 microarchitecture, HR-pQCT; three toothed-whale species):
 
 | Species | Diving profile | Vertebral BV/TV | Trabecular architecture | Notes |
