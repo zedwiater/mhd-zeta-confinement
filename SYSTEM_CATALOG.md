@@ -50,6 +50,7 @@ carries its own scrambled control and falsifier.
 | Sycamore processor datasets (Google Quantum AI; Dryad, DOI 10.5061/dryad.k6t1rj8) | Quantum · duality + decoherence | A working qubit volume's output, decoherence included (XEB circuits, bitstring samples) | XEB fidelity decay vs circuit depth follows the declared error budget | Classically spoofed / depolarized sample sets | Fidelity decay inconsistent with any single error-budget model |
 | NIST Randomness Beacon + CURBy (NIST / CU Boulder; public API) | Quantum · true randomness | Signed 512-bit pulses at 60 s cadence; CURBy Bell-test randomness (Nature 2025) — randomness whose receipt is a Bell violation | Pulse statistics uniform + hash-chained; CHSH violated beyond the classical bound | Classical PRNG streams through the identical test battery | Any statistic separating beacon output from ideal randomness beyond stated bounds |
 | Odlyzko zeta-zero tables (Univ. of Minnesota; public download; first 2,001,052 zeros) | Math tier · spectral accounting | Arithmetic's own spectrum — computed, not measured: zero spacings γₙ₊₁−γₙ after unfolding | Spacing distribution matches GUE random-matrix statistics (Montgomery–Odlyzko) | Poisson (uncorrelated) spacing ensemble at the same density | Spacings fit Poisson better than GUE |
+| Cetacean bone-density vs diving data (Rolvien et al. 2017, Sci Rep 7:1604; Consoli et al. 2022, Animals 12:1793 + ECS 2024; journal literature, public) | Contained-system tier · solidic expression (hyper flavor: whale) | Vertebral BV/TV and humerus radiodensity measured across species of different diving behaviour — bone as the wall readout of load-sharing (see data block below) | Density architecture must track the compression gradient traversed: central densification ("bone-within-bone") in deep divers; load borne without commensurate bone-mass increase (negative allometric scaling of trabecular parameters) | Phylogeny: in the 11-species humerus study, family classified radiodensity better (96.4%) than diving group — the standing control against over-attributing the signal to depth alone | Bone-density architecture shows no systematic relation to depth range once phylogeny is controlled, in a larger sample |
 
 **Honest null (kept in the catalog on purpose):** no public,
 machine-readable He-II second-sound dataset could be verified on
@@ -57,6 +58,33 @@ machine-readable He-II second-sound dataset could be verified on
 literature tables (e.g. Donnelly–Barenghi compilations). The quantum
 tier therefore carries He-II as a **literature-digitization task with
 page-level provenance per value**, not as downloaded data.
+
+**Whale data block (added 2026-11-16, on Zak's order — the
+hyper-expression test case).** Rolvien et al. 2017 (vertebral bone
+microarchitecture, HR-pQCT; three toothed-whale species):
+
+| Species | Diving profile | Vertebral BV/TV | Trabecular architecture | Notes |
+|---|---|---|---|---|
+| Sperm whale (*Physeter macrocephalus*) | Deepest in study; >2,000 m (study Table 1) | 26.0% | Thickest, fewest, most separated trabeculae | Central ossification zone ("bone-within-bone") with raised central BV/TV; marked osteocyte deficiency (empty lacunae) — depth-related osteocyte death is the authors' reading |
+| Orca (*Orcinus orca*) | Mid/shallower diver | 28.3% (highest) | Intermediate | "Bone-within-bone" central densification also present |
+| Harbour porpoise (*Phocoena phocoena*) | Shallow coastal diver | 17.2% (lowest) | Thinnest, most numerous trabeculae | No central densification reported |
+
+Receipts that matter for the whale claim: (1) BV/TV did **not**
+scale with body size across the three species; (2) trabecular
+thickness/number/separation scale with **negative allometry** — in
+the authors' words, the animals "withstand higher loads without a
+commensurate increase in bone mass," i.e. load is borne by
+architecture and distribution, not by piling on material — the
+published shape of load shared system-wide; (3) Consoli et al.
+(11 species, humerus CT radiodensity): shallow divers (<500 m) show
+**higher** cortical/trabecular radiodensity than deep divers
+(>500 m) — deep traversal goes with *redistributed*, not simply
+denser, bone. **Attribution caution (kept loud):** in Consoli's
+classification trees, phylogeny predicted radiodensity better than
+diving behaviour (96.4% by family). The density–depth relation is
+real in the data; how much of it is gradient-traversal vs ancestry
+is exactly what a larger, phylogeny-controlled sample must decide.
+Effect vs mechanism, graded separately — the A–C rule.
 
 The subset's skeleton, visible before any gate runs: every domain has
 one dataset where a system **flips** (bifurcation), one where a pattern
