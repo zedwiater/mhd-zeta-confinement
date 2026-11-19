@@ -107,6 +107,16 @@ not. A threshold claim rides on zone 2 (author, ungraded): a
 minimal system temperature exists at which light flow alone can
 hold the superposition gradient.
 
+## The standing proposal
+
+`superposition-atmosphere-proposal.md` — the program's Zone 2
+proposal, in the author's words: "use the thermal spectrum of
+the superposition atmosphere and its inverse phase offset to
+form stable equilibrium and durable superposition with just
+light from x temp." Draft, ungraded, with its falsifiers
+declared in the document (threshold, offset, spectrum, §21
+inheritance, durability tests).
+
 ## Discipline
 
 Natural/public data only, cited per row. Framing statements from
